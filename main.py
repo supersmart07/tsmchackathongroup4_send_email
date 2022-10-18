@@ -48,4 +48,4 @@ def send_email(recipients: str = 'choco.late.cake0401@gmail.com'):
     return 'OK'
 
 if __name__ == '__main__':
-    uvicorn.run('main:app', reload=True)
+    uvicorn.run('main:app', reload=True, port=80)
